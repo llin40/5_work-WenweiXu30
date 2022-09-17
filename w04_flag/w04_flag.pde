@@ -1,8 +1,8 @@
-//Wenwei Xu 
+//Clueless Coders
 //hW03:Logo
 //Period 5
 
-size(500, 500);
+size(500, 510);
 background(255);
 strokeWeight(5);
 
@@ -35,7 +35,7 @@ line(200, 255, 310, 245);//mouth
 
 stroke(0);
 fill(#27F2E3);
-rect(175, 335, 150, 150);//body
+rect(140, 325, 220, 185);//body
 
 //hat
 stroke(0);
@@ -85,37 +85,40 @@ stroke(0);
 fill(0);
 rect(290, 45, 20, 40);
 
+int x=150;
+int y=355;
+
 //fox
 fill(#EA6F1C);
 stroke(#CB6019);
 strokeWeight(4);
-triangle(251, 380, 450, 380, 350, 490);
-triangle(251, 380, 270, 340, 310, 380);
-triangle(450, 380, 430, 340, 390, 380);
+triangle(x+1, 30+y, 200+x, 30+y, 100+x, 140+y);
+triangle(x+1, 30+y, 20+x, y-10, 60+x, 30+y);
+triangle(x+200, 30+y, 180+x, y-10, 140+x, 30+y);
 
 strokeWeight(1);
 stroke(#F2E3DA);
 fill(#F2E3DA);
-triangle(298, 436, 403, 436, 349, 490);
-circle(325, 425, 56);
-circle(375, 425, 56);
+triangle(48+x, 86+y, 153+x, 86+y, 99+x, 140+y);
+circle(75+x, 75+y, 56);
+circle(125+x, 75+y, 56);
 
 stroke(#F0BABF);
 fill(#F0BABF);
-triangle(262, 380, 273, 355, 295, 380);
-triangle(439, 380, 427, 355, 405, 380);
+triangle(12+x, 30+y, 23+x, 5+y, 45+x, 30+y);
+triangle(189+x, 30+y, 177+x, 5+y, 155+x, 30+y);
 
 stroke(#CB6019);
 strokeWeight(4);
-line(251, 380, 347, 490);
-line(450, 380, 353, 490);
+line(1+x, 30+y, 97+x, 140+y);
+line(200+x, 30+y, 103+x, 140+y);
 
 stroke(#83451C);
 fill(#83451C);
-circle(320, 425, 13);
-circle(380, 425, 13);
+circle(70+x, 75+y, 13);
+circle(130+x, 75+y, 13);
 
 stroke(#C68485);
 strokeWeight(3);
 fill(#F0BABF);
-circle(350, 483, 22);
+circle(100+x, 133+y, 22);
