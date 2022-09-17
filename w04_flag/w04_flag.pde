@@ -1,5 +1,5 @@
 //Clueless Coders
-//hW03:Logo
+//hW04:Logo
 //Period 5
 
 size(500, 510);
