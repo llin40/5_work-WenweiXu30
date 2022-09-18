@@ -6,7 +6,19 @@ size(500, 510);
 background(255);
 strokeWeight(5);
 
+//cat ears 
+fill(#E3A457);
+stroke(#CB8A3A);
+strokeWeight(3);
+triangle(130, 110, 142, 183, 180, 120);
+triangle(370, 110, 358, 183, 320, 120);
+strokeWeight(1);
+fill(#DEB5BD);
+triangle(140, 122, 150, 175, 175, 130);
+triangle(360, 122, 350, 175, 325, 130);
+
 stroke(0);
+strokeWeight(5);
 fill(234, 191, 171);
 rect(225, 300, 50, 35);//neck
 
